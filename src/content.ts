@@ -31,7 +31,6 @@ export const AFFILIATE_BANNER_ALT =
 export const NAV_LINKS = [
   { label: 'Features', href: '#features' },
   { label: 'Performance', href: '#performance' },
-  { label: 'Pricing', href: '#pricing' },
   { label: 'Reviews', href: '#reviews' },
   { label: 'FAQ', href: '#faq' },
 ];
@@ -154,80 +153,6 @@ export const DEEP_DIVES: DeepDive[] = [
   },
 ];
 
-export type Plan = {
-  name: string;
-  tagline: string;
-  monthly: number | null;
-  annual: number;
-  annualRenew: number;
-  original: number;
-  features: string[];
-  highlighted?: boolean;
-  badge?: string;
-};
-
-export const PLANS: Plan[] = [
-  {
-    name: 'StartUp',
-    tagline: 'Perfect for one website',
-    monthly: null,
-    annual: 2.99,
-    annualRenew: 17.99,
-    original: 19.99,
-    features: [
-      '1 Website',
-      '10 GB SSD Storage',
-      'Suitable for ~10,000 visits monthly',
-      'Free SSL & CDN',
-      'Daily Backups',
-      'Free Email Accounts',
-      'Unlimited Data Transfer',
-    ],
-  },
-  {
-    name: 'GrowBig',
-    tagline: 'Great for multiple sites',
-    monthly: 4.99,
-    annual: 4.99,
-    annualRenew: 24.99,
-    original: 29.99,
-    features: [
-      'Unlimited Websites',
-      '20 GB SSD Storage',
-      'Suitable for ~25,000 visits monthly',
-      'Free SSL & CDN',
-      'On-Demand Backups',
-      'Free Email Accounts',
-      'Unlimited Data Transfer',
-      'Priority Support',
-      'Staging Tool',
-    ],
-    highlighted: true,
-    badge: 'Best Value',
-  },
-  {
-    name: 'GoGeek',
-    tagline: 'For heavy traffic & WooCommerce',
-    monthly: 7.99,
-    annual: 7.99,
-    annualRenew: 39.99,
-    original: 44.95,
-    features: [
-      'Unlimited Websites',
-      '40 GB SSD Storage',
-      'Suitable for ~100,000 visits monthly',
-      'Free SSL & CDN',
-      'On-Demand Backups',
-      'Free Email Accounts',
-      'Unlimited Data Transfer',
-      'Highest Tier Support',
-      'Staging Tool',
-      'PCI-Compliant Servers',
-      'White-Glove Migrations',
-    ],
-  },
-];
-
 export type Testimonial = {
   name: string;
   role: string;
@@ -336,7 +261,6 @@ export const FAQ_ITEMS: FAQItem[] = [
 export const FOOTER_LINKS = [
   { label: 'Features', href: '#features' },
   { label: 'Performance', href: '#performance' },
-  { label: 'Pricing', href: '#pricing' },
   { label: 'Reviews', href: '#reviews' },
   { label: 'FAQ', href: '#faq' },
 ];

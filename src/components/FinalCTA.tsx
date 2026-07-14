@@ -82,10 +82,10 @@ export default function FinalCTA() {
                 <ArrowRight className="w-5 h-5" />
               </a>
               <a
-                href="#pricing"
+                href="#reviews"
                 className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-xl bg-white/10 text-white font-semibold text-base border border-white/20 hover:bg-white/20 transition-all duration-300"
               >
-                Compare Plans
+                Read Reviews
               </a>
             </div>
             <div className="mt-6 flex items-center justify-center gap-2 text-brand-50 text-sm">

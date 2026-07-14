@@ -2,7 +2,6 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Features from './components/Features';
 import Performance from './components/Performance';
-import Pricing from './components/Pricing';
 import Testimonials from './components/Testimonials';
 import Comments from './components/Comments';
 import FAQ from './components/FAQ';
@@ -18,7 +17,6 @@ export default function App() {
         <Hero />
         <Features />
         <Performance />
-        <Pricing />
         <Testimonials />
         <Comments />
         <FAQ />

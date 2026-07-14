@@ -63,8 +63,8 @@ export default function Hero() {
               Start Hosting Now
               <ArrowRight className="w-5 h-5" />
             </a>
-            <a href="#pricing" className="btn-secondary text-base px-8 py-4">
-              View Plans
+            <a href="#features" className="btn-secondary text-base px-8 py-4">
+              Explore Features
             </a>
           </div>
 
