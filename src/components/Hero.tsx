@@ -30,7 +30,7 @@ export default function Hero() {
           {/* Badge */}
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/70 backdrop-blur border border-brand-200 text-brand-700 text-sm font-semibold mb-6 animate-fade-in">
             <Star className="w-4 h-4 fill-brand-500 text-brand-500" />
-            Rated #1 Web Hosting by 2.8M+ Users
+            Trusted by the owners of 3M+ domains
           </div>
 
           <h1 className="font-display text-4xl sm:text-5xl lg:text-6xl font-extrabold text-ink-900 leading-[1.1] text-balance animate-fade-up">
@@ -43,8 +43,8 @@ export default function Hero() {
             className="mt-6 text-lg text-ink-600 leading-relaxed max-w-2xl mx-auto animate-fade-up"
             style={{ animationDelay: '0.1s' }}
           >
-            SiteGround delivers lightning-fast speeds, AI-powered security, and 24/7
-            expert support trusted by over 2.8 million websites. Start from just{' '}
+            SiteGround delivers fast speeds, AI-powered security, and 24/7 expert
+            support, trusted by the owners of 3 million+ domains. Start from just{' '}
             <span className="font-semibold text-ink-900">$2.99/mo</span> with a 30-day
             money-back guarantee.
           </p>

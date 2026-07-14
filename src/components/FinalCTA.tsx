@@ -68,8 +68,8 @@ export default function FinalCTA() {
               Ready to Launch Your Website?
             </h2>
             <p className="mt-4 text-lg text-brand-50 max-w-2xl mx-auto">
-              Join 2.8 million websites powered by SiteGround. Start today from just
-              $2.99/mo with a 30-day money-back guarantee.
+              Join the owners of 3 million+ domains who trust SiteGround. Start today
+              from just $2.99/mo with a 30-day money-back guarantee.
             </p>
             <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
               <a

@@ -36,8 +36,8 @@ export const NAV_LINKS = [
 ];
 
 export const HERO_STATS = [
-  { value: 2800000, suffix: '+', label: 'Websites Hosted' },
-  { value: 99.99, suffix: '%', label: 'Uptime Guaranteed' },
+  { value: 3000000, suffix: '+', label: 'Domains Hosted' },
+  { value: 99.99, suffix: '%', label: 'Uptime' },
   { value: 24, suffix: '/7', label: 'Expert Support' },
   { value: 30, suffix: '-Day', label: 'Money-Back Guarantee' },
 ];
@@ -54,7 +54,7 @@ export const FEATURES: Feature[] = [
     icon: Gauge,
     title: 'Blazing Fast Speed',
     description:
-      'NGINX servers with HTTP/3, ultra-fast PHP execution, and SSD storage deliver up to 5x faster load times for your websites.',
+      'NGINX servers with HTTP/3, ultra-fast PHP execution, and premium storage deliver consistently fast load times for your websites.',
     accent: 'from-brand-500 to-accent-500',
   },
   {
@@ -68,7 +68,7 @@ export const FEATURES: Feature[] = [
     icon: Headphones,
     title: '24/7 Human Support',
     description:
-      'Real hosting experts available around the clock via chat, ticket, and phone \u2014 with an average first-response under 10 minutes.',
+      'Real hosting experts available around the clock via chat, ticket, and phone \u2014 with fast first-response times.',
     accent: 'from-brand-600 to-accent-600',
   },
   {
@@ -144,7 +144,7 @@ export const DEEP_DIVES: DeepDive[] = [
     bullets: [
       'Human experts available 24/7/365',
       'Chat, ticket, and phone support channels',
-      'Average first response under 10 minutes',
+      'Fast first-response times',
       'Server-level fixes, not just script resets',
     ],
     icon: LifeBuoy,
@@ -154,69 +154,46 @@ export const DEEP_DIVES: DeepDive[] = [
 ];
 
 export type Testimonial = {
-  name: string;
-  role: string;
-  avatar: string;
-  rating: number;
   quote: string;
+  business: string;
+  role: string;
 };
+
+// Real customer stories sourced from SiteGround's official client stories page.
+// Quotes are attributed and linked; no fabricated names, avatars, or ratings.
+export const TESTIMONIALS_SOURCE_URL =
+  'https://www.siteground.com/client-stories';
 
 export const TESTIMONIALS: Testimonial[] = [
   {
-    name: 'Sarah Mitchell',
-    role: 'Blogger, thewanderingdesk.com',
-    avatar: 'https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=200',
-    rating: 5,
     quote:
-      'I migrated from a budget host and the speed difference was night and day. My WordPress load time dropped from 4 seconds to under 1.2. Support actually knows what they\u2019re doing.',
+      'Not only do we spend 75% less on our monthly bill, but our website speed increased when we moved to SiteGround.',
+    business: 'builtlean.com',
+    role: 'Wellness Coach',
   },
   {
-    name: 'James O\u2019Connor',
-    role: 'Agency Owner, PixelForge',
-    avatar: 'https://images.pexels.com/photos/220457/pexels-photo-220457.jpeg?auto=compress&cs=tinysrgb&w=200',
-    rating: 5,
     quote:
-      'We host 40+ client sites on GrowBig. The staging tool alone saves us hours every week. When something breaks, support fixes it at the server level \u2014 not just \u2018restart the service.\u2019',
+      'The reliability, the performance, the support \u2014 everything at SiteGround just works.',
+    business: 'inklingdesign.ca',
+    role: 'Web Agency',
   },
   {
-    name: 'Priya Sharma',
-    role: 'WooCommerce Store Owner',
-    avatar: 'https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=200',
-    rating: 5,
     quote:
-      'GoGeek\u2019s PCI-compliant servers gave me peace of mind for my store. The AI anti-bot system blocked a wave of card-testing attacks before I even noticed. Worth every penny.',
+      'It had lots of features we were able to tap into to make our site\u2019s performance 88.6% faster.',
+    business: 'japanskiexperience.com',
+    role: 'Ski Travel Agency',
   },
   {
-    name: 'Marcus Lee',
-    role: 'Freelance Developer',
-    avatar: 'https://images.pexels.com/photos/697509/pexels-photo-697509.jpeg?auto=compress&cs=tinysrgb&w=200',
-    rating: 5,
     quote:
-      'The free site migration was seamless \u2014 they moved a complex multisite setup overnight with zero downtime. I\u2019ve recommended SiteGround to every client since.',
-  },
-  {
-    name: 'Elena Rossi',
-    role: 'Nonprofit Director',
-    avatar: 'https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg?auto=compress&cs=tinysrgb&w=200',
-    rating: 5,
-    quote:
-      'Our donation portal needs to be up 100% of the time. In two years on SiteGround, we\u2019ve had zero outages. The 99.99% uptime promise is real, not marketing.',
-  },
-  {
-    name: 'David Chen',
-    role: 'SaaS Founder',
-    avatar: 'https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=200',
-    rating: 5,
-    quote:
-      'HTTP/3 and the NGINX stack made our marketing site noticeably snappier. Google PageSpeed went from the 60s to 90+ after the switch. Couldn\u2019t be happier.',
+      'My site got faster on SiteGround, which has really helped with the increase in organic traffic.',
+    business: 'alixr.co.uk',
+    role: 'Wellness & Longevity Coach',
   },
 ];
 
 export const TRUST_LOGOS = [
   'Recommended by WordPress.org',
-  '99.99% Uptime Award',
-  'A+ Rated Support',
-  'Trusted by 2.8M+ Sites',
+  'Trusted by 3M+ Domains',
   'PCI-Compliant Servers',
 ];
 
@@ -239,7 +216,7 @@ export const FAQ_ITEMS: FAQItem[] = [
   {
     question: 'How fast is the customer support?',
     answer:
-      'SiteGround\u2019s support is available 24/7/365 via live chat, ticket, and phone. The average first-response time is under 10 minutes, and all agents are trained hosting professionals who can resolve issues at the server level \u2014 not just frontline script-readers.',
+      'SiteGround\u2019s support is available 24/7/365 via live chat, ticket, and phone. Response times are fast, and all agents are trained hosting professionals who can resolve issues at the server level \u2014 not just frontline script-readers.',
   },
   {
     question: 'What makes SiteGround faster than other hosts?',
