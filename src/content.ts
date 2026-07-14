@@ -32,6 +32,7 @@ export const NAV_LINKS = [
   { label: 'Features', href: '#features' },
   { label: 'Performance', href: '#performance' },
   { label: 'Reviews', href: '#reviews' },
+  { label: 'Verdict', href: '#verdict' },
   { label: 'FAQ', href: '#faq' },
 ];
 
@@ -230,10 +231,35 @@ export const FAQ_ITEMS: FAQItem[] = [
   },
 ];
 
+// Original, first-party editorial verdict — unique content written by us.
+// Honest take based on SiteGround's official docs and published client stories;
+// deliberately avoids fabricated benchmark numbers or invented test results.
+export const VERDICT_SUMMARY =
+  'SiteGround is a strong pick if you value speed, security, and genuinely helpful support over the cheapest possible price. The Google Cloud stack, free CDN/SSL, and managed WordPress tooling do the heavy lifting for you, and support is staffed by people who fix things at the server level. The trade-off is honest to point out: the low intro price steps up at renewal, so it suits people who plan to stay for the platform, not just the first-year deal.';
+
+export const VERDICT_PROS = [
+  'Built on Google Cloud with a custom NGINX + ultra-fast PHP stack',
+  'Free CDN, SSL, and daily backups on every plan',
+  'Managed WordPress: auto-updates, staging, and WP-CLI',
+  '24/7 support from trained humans, not just script-readers',
+  'Free, expert-handled site migration',
+];
+
+export const VERDICT_CONS = [
+  'Renewal prices are higher than the promotional intro rate',
+  'Storage suits typical sites, less so huge media libraries',
+  'Monthly billing costs more than prepaying for a year',
+  'Advanced features like staging & Git begin on higher tiers',
+];
+
+export const VERDICT_METHOD =
+  'How we formed this review: we base it on SiteGround\u2019s official product documentation, its published client stories, and hands-on familiarity with managed WordPress hosting. We update this page as SiteGround\u2019s plans and features change, and we flag trade-offs as clearly as strengths.';
+
 export const FOOTER_LINKS = [
   { label: 'Features', href: '#features' },
   { label: 'Performance', href: '#performance' },
   { label: 'Reviews', href: '#reviews' },
+  { label: 'Verdict', href: '#verdict' },
   { label: 'FAQ', href: '#faq' },
 ];
 
