@@ -242,11 +242,6 @@ export const FAQ_ITEMS: FAQItem[] = [
       'SiteGround\u2019s support is available 24/7/365 via live chat, ticket, and phone. The average first-response time is under 10 minutes, and all agents are trained hosting professionals who can resolve issues at the server level \u2014 not just frontline script-readers.',
   },
   {
-    question: 'Do I get a free domain name?',
-    answer:
-      'SiteGround does not bundle a free domain with hosting, but you can register a domain through them at competitive prices, or connect a domain you already own from any registrar. Connecting an existing domain is free and takes just a few minutes in the Site Tools panel.',
-  },
-  {
     question: 'What makes SiteGround faster than other hosts?',
     answer:
       'SiteGround runs a custom stack: NGINX for static content, HTTP/3 for resilient connections, an optimized PHP pipeline that\u2019s up to 30% faster than standard, SSD persistent storage, and a Cloudflare-powered CDN. Server-level caching is pre-tuned for WordPress so you get great speeds without extra plugins.',
