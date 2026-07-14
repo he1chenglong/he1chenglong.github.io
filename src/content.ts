@@ -17,8 +17,16 @@ import {
 export const AFFILIATE_URL =
   'https://www.siteground.com/index.htm?afcode=a34d395f092b9f150b5775e67d5fffc8';
 
+// Official SiteGround banner destination (afimagecode-tracked). Do NOT alter
+// the URL, image src, or alt text — SG requires the banner be used as-is.
+export const AFFILIATE_BANNER_URL =
+  'https://siteground.com/web-hosting.htm?afimagecode=077adbdd382db0a6b44d2c81bd91d99b';
+
 export const AFFILIATE_BANNER_IMG =
   'https://siteground.com/static/affiliate/en/NOPRICE/general_EN_general-hosting-square-light.jpg';
+
+export const AFFILIATE_BANNER_ALT =
+  'Ad - Web Hosting from SiteGround - Crafted for easy site management. Click to learn more.';
 
 export const NAV_LINKS = [
   { label: 'Features', href: '#features' },

@@ -1,5 +1,10 @@
 import { ArrowRight, ShieldCheck } from 'lucide-react';
-import { AFFILIATE_URL, AFFILIATE_BANNER_IMG } from '../content';
+import {
+  AFFILIATE_URL,
+  AFFILIATE_BANNER_URL,
+  AFFILIATE_BANNER_IMG,
+  AFFILIATE_BANNER_ALT,
+} from '../content';
 import { useScrollReveal } from '../hooks';
 
 export default function FinalCTA() {
@@ -38,14 +43,14 @@ export default function FinalCTA() {
 
           {/* Banner image */}
           <a
-            href={AFFILIATE_URL}
+            href={AFFILIATE_BANNER_URL}
             target="_blank"
             rel="noopener noreferrer sponsored"
             className="flex-shrink-0 rounded-2xl overflow-hidden shadow-2xl border border-ink-100 hover:scale-[1.02] transition-transform duration-300"
           >
             <img
               src={AFFILIATE_BANNER_IMG}
-              alt="Ad — Web Hosting from SiteGround — Crafted for easy site management. Click to learn more."
+              alt={AFFILIATE_BANNER_ALT}
               className="w-full max-w-md"
             />
           </a>
