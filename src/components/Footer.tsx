@@ -1,4 +1,4 @@
-import { Server, Info } from 'lucide-react';
+import { Info } from 'lucide-react';
 import {
   FOOTER_LINKS,
   FOOTER_RESOURCES,
@@ -20,23 +20,7 @@ export default function Footer() {
           </p>
         </div>
 
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 pb-12 border-b border-ink-800">
-          {/* Brand */}
-          <div className="col-span-2 lg:col-span-1">
-            <a href="#top" className="flex items-center gap-2.5 mb-4">
-              <span className="flex items-center justify-center w-9 h-9 rounded-xl bg-gradient-to-br from-brand-500 to-accent-600 text-white">
-                <Server className="w-5 h-5" strokeWidth={2.5} />
-              </span>
-              <span className="font-display font-extrabold text-lg text-white">
-                Host<span className="text-brand-400">Scout</span>
-              </span>
-            </a>
-            <p className="text-sm text-ink-400 leading-relaxed">
-              Your trusted guide to the best web hosting. We help you find the right plan
-              for your website.
-            </p>
-          </div>
-
+        <div className="grid grid-cols-2 lg:grid-cols-3 gap-8 pb-12 border-b border-ink-800">
           {/* Navigation */}
           <div>
             <h4 className="font-display font-bold text-white text-sm uppercase tracking-wider mb-4">
@@ -99,13 +83,9 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+        <div className="pt-8">
           <p className="text-sm text-ink-500">
             &copy; {new Date().getFullYear()} HostScout. All rights reserved.
-          </p>
-          <p className="text-sm text-ink-500">
-            HostScout is an independent review site and affiliate of SiteGround
-            (afcode: a34d395f092b9f150b5775e67d5fffc8).
           </p>
         </div>
       </div>
