@@ -92,6 +92,11 @@ export default function FinalCTA() {
               <ShieldCheck className="w-5 h-5" />
               30-day money-back guarantee — no risk, no hassle
             </div>
+            {/* Affiliate disclosure near CTA (FTC compliance) */}
+            <p className="mt-4 text-xs text-brand-100/80 max-w-xl mx-auto">
+              As an affiliate, HostScout may earn a commission from qualifying
+              purchases at no extra cost to you.
+            </p>
           </div>
         </div>
       </div>

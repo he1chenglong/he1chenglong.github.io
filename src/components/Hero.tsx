@@ -68,15 +68,6 @@ export default function Hero() {
             </a>
           </div>
 
-          {/* Affiliate disclosure near CTA (FTC compliance) */}
-          <p
-            className="mt-4 text-xs text-ink-400 max-w-xl mx-auto animate-fade-in"
-            style={{ animationDelay: '0.25s' }}
-          >
-            As an affiliate, HostScout may earn a commission from qualifying purchases at
-            no extra cost to you.
-          </p>
-
           {/* Trust badges */}
           <div
             className="mt-6 flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-sm text-ink-500 animate-fade-in"
