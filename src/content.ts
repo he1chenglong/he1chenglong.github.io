@@ -162,8 +162,9 @@ export type Testimonial = {
 
 // Real customer stories sourced from SiteGround's official client stories page.
 // Quotes are attributed and linked; no fabricated names, avatars, or ratings.
+// Affiliate-tracked (afcode) while still pointing to the real source page.
 export const TESTIMONIALS_SOURCE_URL =
-  'https://www.siteground.com/client-stories';
+  'https://www.siteground.com/client-stories?afcode=a34d395f092b9f150b5775e67d5fffc8';
 
 export const TESTIMONIALS: Testimonial[] = [
   {

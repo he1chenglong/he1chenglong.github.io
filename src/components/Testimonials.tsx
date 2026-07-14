@@ -62,7 +62,7 @@ export default function Testimonials() {
           <a
             href={TESTIMONIALS_SOURCE_URL}
             target="_blank"
-            rel="noopener noreferrer"
+            rel="noopener noreferrer sponsored"
             className="inline-flex items-center gap-1.5 text-sm text-ink-500 hover:text-brand-600 transition-colors"
           >
             Source: SiteGround client stories
