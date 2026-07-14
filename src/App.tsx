@@ -4,7 +4,6 @@ import Features from './components/Features';
 import Performance from './components/Performance';
 import Testimonials from './components/Testimonials';
 import Verdict from './components/Verdict';
-import Comments from './components/Comments';
 import FAQ from './components/FAQ';
 import FinalCTA from './components/FinalCTA';
 import Footer from './components/Footer';
@@ -21,7 +20,6 @@ export default function App() {
         <Testimonials />
         <Verdict />
         <FAQ />
-        <Comments />
         <FinalCTA />
       </main>
       <Footer />
