@@ -3,7 +3,6 @@ import Hero from './components/Hero';
 import Features from './components/Features';
 import Performance from './components/Performance';
 import Testimonials from './components/Testimonials';
-import Comments from './components/Comments';
 import FAQ from './components/FAQ';
 import FinalCTA from './components/FinalCTA';
 import Footer from './components/Footer';
@@ -18,7 +17,6 @@ export default function App() {
         <Features />
         <Performance />
         <Testimonials />
-        <Comments />
         <FAQ />
         <FinalCTA />
       </main>
