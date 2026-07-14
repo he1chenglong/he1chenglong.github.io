@@ -38,7 +38,7 @@ export const NAV_LINKS = [
 
 export const HERO_STATS = [
   { value: 3000000, suffix: '+', label: 'Domains Hosted' },
-  { value: 99.99, suffix: '%', label: 'Uptime' },
+  { value: 99.9, suffix: '%', label: 'Uptime' },
   { value: 24, suffix: '/7', label: 'Expert Support' },
   { value: 30, suffix: '-Day', label: 'Money-Back Guarantee' },
 ];
@@ -83,14 +83,14 @@ export const FEATURES: Feature[] = [
     icon: Globe,
     title: 'Free Site Migration',
     description:
-      'SiteGround\u2019s migration experts move your site for free \u2014 zero downtime, zero stress, usually completed within 24 hours.',
+      'SiteGround\u2019s migration experts move your site for free \u2014 zero downtime, zero stress, handled by specialists.',
     accent: 'from-brand-500 to-brand-700',
   },
   {
     icon: Server,
     title: 'Free CDN & SSL',
     description:
-      'Cloudflare-powered CDN and free SSL certificates on every plan, boosting both performance and security from day one.',
+      'A free built-in CDN and free SSL certificates on every plan, boosting both performance and security from day one.',
     accent: 'from-accent-500 to-accent-700',
   },
 ];
@@ -213,7 +213,7 @@ export const FAQ_ITEMS: FAQItem[] = [
   {
     question: 'Will SiteGround migrate my existing website for free?',
     answer:
-      'Yes. SiteGround\u2019s migration team will move your site at no extra cost on GrowBig and GoGeek plans. They handle WordPress, Joomla, and custom sites, usually completing the transfer within 24 hours with zero downtime. You can also use the free WordPress Migrator plugin for self-service moves.',
+      'Yes. SiteGround\u2019s migration team will move your site at no extra cost on GrowBig and GoGeek plans. They handle WordPress, Joomla, and custom sites, completing the transfer with zero downtime. You can also use the free WordPress Migrator plugin for self-service moves.',
   },
   {
     question: 'How fast is the customer support?',
@@ -223,7 +223,7 @@ export const FAQ_ITEMS: FAQItem[] = [
   {
     question: 'What makes SiteGround faster than other hosts?',
     answer:
-      'SiteGround runs a custom stack: NGINX for static content, HTTP/3 for resilient connections, an optimized PHP pipeline that\u2019s up to 30% faster than standard, SSD persistent storage, and a Cloudflare-powered CDN. Server-level caching is pre-tuned for WordPress so you get great speeds without extra plugins.',
+      'SiteGround runs a custom stack: NGINX for static content, HTTP/3 for resilient connections, an optimized PHP pipeline that\u2019s up to 30% faster than standard, SSD persistent storage, and a free built-in CDN. Server-level caching is pre-tuned for WordPress so you get great speeds without extra plugins.',
   },
   {
     question: 'Can I upgrade or downgrade my plan later?',
