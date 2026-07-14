@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { Menu, X, Server } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import { NAV_LINKS, AFFILIATE_URL } from '../content';
 
 export default function Navbar() {
@@ -20,15 +20,8 @@ export default function Navbar() {
       }`}
     >
       <nav className="container-x flex items-center justify-between h-16 lg:h-20">
-        {/* Logo */}
-        <a href="#top" className="flex items-center gap-2.5 group">
-          <span className="flex items-center justify-center w-9 h-9 rounded-xl bg-gradient-to-br from-brand-500 to-accent-600 text-white shadow-lg shadow-brand-500/30 group-hover:scale-110 transition-transform">
-            <Server className="w-5 h-5" strokeWidth={2.5} />
-          </span>
-          <span className="font-display font-extrabold text-lg tracking-tight text-ink-900">
-            Host<span className="text-brand-600">Scout</span>
-          </span>
-        </a>
+        {/* Spacer (logo removed) */}
+        <span aria-hidden="true" />
 
         {/* Desktop nav */}
         <ul className="hidden lg:flex items-center gap-1">
